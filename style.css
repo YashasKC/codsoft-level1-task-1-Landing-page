@@ -1,0 +1,637 @@
+*{
+    margin: 0;
+    font-family:Arial;
+    border:border-box
+}
+body{
+   scroll-behavior: smooth;
+}
+.navbar{
+    height:60px;
+    background-color: aliceblue;
+    display: flex;
+ }
+ .box1{
+    height:60px;
+    width:160px;
+    font-size:30px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+    color: green; 
+ }
+.box2{
+    height: 60px;
+    width: 800px;
+    display: flex;
+    align-items: centers;
+    text-align: center;
+    justify-content: center;
+    padding-left: 100px;
+}
+ .box2a{
+    margin-top: 12px;
+    height: 30px;
+    width:100px;
+    font-size: 20px;
+    align-items: center;
+    background-size: cover;
+ }
+ .box3{
+    margin-top: 10px;
+    height:40px;
+    width:230px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+ }
+ .border:hover{
+    border: 3px solid yellow;
+ }
+ .icons{
+   align-items: center;
+   justify-content: center;
+   margin-top: 7px;
+   padding-left: 180px;
+   height: 60px;
+   width:300px;
+   display:flex ;
+ }
+#menu-btn{
+   padding-left: 10px;
+   padding-right: 10px;
+   border: 1px solid black;
+   height: 40px;
+   line-height: 40px;
+   background-color: darkgrey;
+   border-radius:.5rem;
+   width: 20px;
+   margin-left: 10px;
+   margin-bottom:20px;
+}
+#menu-btn:hover{
+   background-color: green;
+}
+#cart-btn{
+   padding-left: 10px;
+   padding-right: 10px;
+   border:1px solid black;
+   height: 40px;
+   line-height: 40px;
+   background-color: darkgrey;
+   border-radius:.5rem;
+   width: 20px;
+   margin-left: 10px;
+   margin-bottom: 20px;
+}
+#cart-btn:hover{
+   background-color: green;
+}
+#user-btn{
+   padding-left: 10px;
+   padding-right: 10px;
+   border:1px solid black;
+   height: 40px;
+   line-height: 40px;
+   background-color:darkgray;
+   border-radius:.5rem;
+   width: 20px;
+   margin-left: 10px;
+   margin-bottom: 20px;
+}
+#user-btn:hover{
+   background-color: green;
+}
+.shoping-cart{
+   position: absolute;
+   right: -110%;
+   margin-top: 10px;
+   margin-left: 80%;
+   border: 5px solid black;
+   padding: 5px;
+   border-radius: .5rem;
+   width:280px;
+   background-color: white;
+}
+.shoping-cart.active{
+   right:5px;
+   transition: .4s linear;
+}
+.box{
+   border:0px solid blue;
+   align-items: center;
+   width:95%;
+   padding-left: 6px;
+   display: flex;
+   padding-right: 10px;
+}
+.content{
+   color: black;
+   font-size: 15px;
+
+}
+img{
+   height: 100px;
+}
+.fa-trash{
+   position: relative;
+   font-size: 15px;
+   color: black;
+   cursor: pointer;
+}
+.fa-trash:hover{
+   background-color: yellow;
+}
+span{
+   color: blue;
+}
+.total{
+   font-size: 25px;
+   padding: 5px opx;
+   text-align: center;
+   color:black;
+}
+.btn{
+   margin-top: 5px;
+   display: inline-block;
+   padding: 0px 15px ;
+   text-decoration: none;
+   border: 1px solid;
+   border-radius: 2px;
+   height: 30px;
+   width: 80%;
+   padding-left: 30px ;
+   padding-top: 10px;
+   text-align: center;
+   background: none;
+   padding-right: 30px;
+}
+.btn:hover{
+   background-color:skyblue;
+   color: white;
+}
+
+.login-form{
+   border:1px solid;
+   right: -410px;
+   position: absolute;
+   text-align: center;
+   background: #fff;
+   border-radius: 5px;
+   margin-left: 75%;
+   width: 300px;
+   background-color: yellow;
+}
+.login-form.active{
+   right:5px;
+   transition: .4s linear;
+}
+.login-form h3{
+   margin-top: 10px;
+   font-size: 25px;
+   text-transform: uppercase;
+   color: black;
+
+}.boxa{
+   border:1px solid;
+   margin-top: 10px;
+   margin-bottom: 8px;
+   background: #eee;
+   border-radius: 2px;
+   padding: 1rem;
+}
+.btna{
+   margin-top: 10px;
+   margin-bottom: 10px;
+   height: 40px;
+   width:120px
+}
+.btna:hover{
+   background-color:green;
+   color: white;
+}
+.login-form p{
+   margin-top: 8px;
+
+}
+.login-form a{
+   color: red;
+   text-decoration: none;
+}
+
+.main{
+   background-image: url("banner-img.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 500px;
+}
+.main p,h1{
+   text-align: center;
+   margin-left: 90px;
+}
+
+.main h1{
+   padding-top: 150px;
+   font-size:40px;
+}
+
+p{
+   padding-top: 25px;
+   font-size: 20px;
+   color:grey
+}
+.main span{
+   color: green;
+}
+.Feature{
+   margin-top: 30px;
+}
+
+.Feature h1{
+   color: blue;
+}
+.Feature h1 span{
+   color: white;
+   background-color: green;
+   display: inline-block;
+   padding: 10px;
+   clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+}
+#close1{
+   font-size: 15px;
+   position: relative;
+   left: 135px;
+
+}
+.shoping-cart #close{
+ position: relative;
+ left: 250px;
+}
+.Feature-items{
+   display: flex;
+   text-align: center;
+   width: 96%;
+   margin-left: 31px;
+   height: 350px;
+}
+.items-1{
+   width: 220px;
+   height: 310px;
+   border: 6px double yellow;
+   margin-top: 30px;
+   margin-left: 250px;
+   text-align: center;
+   background-color: antiquewhite;
+   border-radius: 5px;
+}
+.items-1 img{
+   padding-top: 20px;
+}
+.items-1:hover{
+   color: black;
+   background-color:whitesmoke ;
+   border:6px double green;
+}
+
+.items-2{
+   width: 220px;
+   height: 310px;
+   border: 6px double yellow;
+   margin-top: 30px;
+   margin-left: 160px;
+   text-align: center;
+   background-color: antiquewhite;
+   border-radius: 5px;
+}
+.items-2 img{
+   padding-top: 20px;
+}
+
+.items-2:hover{
+   color: black;
+   background-color:whitesmoke ;
+   border:6px double green;
+}
+
+.items-3{
+   width: 220px;
+   height: 310px;
+   border: 6px double yellow;
+   margin-top: 30px;
+   margin-left: 120px;
+   text-align: center;
+   background-color: antiquewhite;
+   border-radius: 5px;
+}
+.items-3 img{
+   padding-top: 20px;
+}
+
+.items-3:hover{
+   color: black;
+   background-color:whitesmoke ;
+   border:6px double green;
+}
+.Feature-items a{
+   border: 2px solid rgb(9, 128, 232);
+   background-color: rgb(9, 128, 232);
+   color: #fff;
+   padding: 8px 20px 8px 20px;
+   text-decoration: none;
+   border-radius: 5px;
+  position: relative;
+  top:15px;
+}
+
+/*for designing product part*/
+
+
+.Products h1{
+   color: blue;
+   margin-top: 30px;
+
+}
+
+.Products span{
+   color: white;
+   background-color: green;
+   display: inline-block;
+   padding: 10px;
+   clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+
+}
+
+
+
+
+/*products*/
+
+.Product-items{
+   display: flex;
+   justify-content: center;
+   column-gap: 20px;
+}
+
+.Product-1{
+
+   width: 220px;
+   height: 360px;
+   border: 6px double yellow;
+   margin-top: 30px;
+   margin-left: 80px;
+   text-align: center;
+   background-color:white;
+   border-radius: 5px;
+}
+
+.Product-1 img {
+   width: 200px;
+   height: 200px;
+}
+.Product-1:hover{
+   border: 6px double rgb(81, 255, 7);
+}
+.Products a{
+   position: relative;
+   top: 15px;
+   background-color: green;
+   border: 1 px solid green;
+   text-decoration: none;
+   color: white;
+   padding: 8px 20px 8px 20px;
+}
+
+
+.Product-2{
+
+   width: 220px;
+   height: 360px;
+   border: 6px double yellow;
+   margin-top: 30px;
+   margin-left: 80px;
+   text-align: center;
+   background-color:white;
+   border-radius: 5px;
+}
+.Product-2 img{
+   height: 200px;
+   width: 200px;
+}
+.Product-2:hover{
+   border: 6px double rgb(81, 255, 7);
+}
+.Product-3{
+
+   width: 220px;
+   height: 360px;
+   border: 6px double yellow;
+   margin-top: 30px;
+   margin-left: 80px;
+   text-align: center;
+   background-color:white;
+   border-radius: 5px;
+}
+
+.Product-3 img{
+   height: 200px;
+   width: 200px;
+}
+.Product-3:hover{
+   border: 6px double rgb(81, 255, 7);
+}
+.Product-4{
+
+   width: 220px;
+   height: 360px;
+   border: 6px double yellow;
+   margin-top: 30px;
+   margin-left: 80px;
+   text-align: center;
+   background-color:white;
+   border-radius: 5px;
+}
+
+.Product-4 img{
+   height: 200px;
+   width: 200px;
+}
+.Product-4:hover{
+   border: 6px double rgb(81, 255, 7);
+}
+
+
+.Product-5{
+
+   width: 220px;
+   height: 360px;
+   border: 6px double yellow;
+   margin-top: 30px;
+   margin-left: 80px;
+   text-align: center;
+   background-color:white;
+   border-radius: 5px;
+}
+
+.Product-5 img{
+   height: 200px;
+   width: 200px;
+}
+
+.Product-5:hover{
+   border: 6px double rgb(81, 255, 7);
+}
+.Product-6{
+   height: 360px;
+   border: 6px double yellow;
+   margin-top: 30px;
+   margin-left: 80px;
+   text-align: center;
+   background-color:white;
+   border-radius: 5px;
+}
+
+.Product-6 img{
+   height: 200px;
+   width: 200px;
+}
+.Product-6:hover{
+   border: 6px double rgb(81, 255, 7);
+}
+
+.Product-7{
+
+   width: 220px;
+   height: 360px;
+   border: 6px double yellow;
+   margin-top: 30px;
+   margin-left: 80px;
+   text-align: center;
+   background-color:white;
+   border-radius: 5px;
+}
+
+.Product-7 img{
+   height: 200px;
+   width: 200px;
+}
+
+.Product-7:hover{
+   border: 6px double rgb(81, 255, 7);
+}
+.Product-8{
+
+   width: 220px;
+   height: 360px;
+   border: 6px double yellow;
+   margin-top: 30px;
+   margin-left: 80px;
+   text-align: center;
+   background-color:white;
+   border-radius: 5px;
+   border-radius: 6px;
+}
+
+.Product-8 img{
+   height: 200px;
+   width: 200px;
+}
+
+.Product-8:hover{
+   border: 6px double rgb(81, 255, 7);
+}
+
+
+.Product-items i{
+   margin-top: 15px;
+   color: rgb(255, 239, 11);
+   font-size: 20px;
+}
+
+/*designing categories section*/
+ .Categories h1{
+   color: blue;
+   margin-top: 30px;
+
+}
+.Categories span{
+   color: white;
+   background-color: green;
+   display: inline-block;
+   padding: 10px;
+   clip-path: polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+
+}
+.Categories-items{
+   display: flex;
+   justify-content: center;
+   column-gap: 20px;
+}
+
+
+.Category-1{width: 220px;
+   height: 310px;
+   border: 6px double yellow;
+   margin-top: 30px;
+   background-color: antiquewhite;
+   border-radius: 5px;
+   margin-left: 80px;
+   text-align: center;
+}
+
+.Category-1:hover{
+   border: 6px double rgb(81, 255, 7);
+   border-radius: 6px;
+   margin-top: 30px;
+}
+
+.Category-2{
+   width: 220px;
+   height: 310px;
+   border: 6px double yellow;
+   margin-top: 30px;
+   background-color: antiquewhite;
+   border-radius: 5px;
+   margin-left: 80px;
+   text-align: center;
+}
+
+.Category-2:hover{
+   border: 6px double rgb(81, 255, 7);
+   border-radius: 6px;
+   margin-top: 30px;
+}
+
+.Category-3{width: 220px;
+   height: 310px;
+   border: 6px double yellow;
+   margin-top: 30px;
+   background-color: antiquewhite;
+   border-radius: 5px;
+   margin-left: 80px;
+   text-align: center;
+}
+
+.Category-3:hover{
+   border: 6px double rgb(81, 255, 7);
+   border-radius: 6px;
+   margin-top: 30px;
+}
+
+.Category-4{width: 220px;
+   height: 310px;
+   border: 6px double yellow;
+   margin-top: 30px;
+   background-color: antiquewhite;
+   border-radius: 5px;
+   margin-left: 80px;
+   text-align: center;
+   border-radius: 6px;
+}
+
+.Category-4:hover{
+   border: 6px double rgb(81, 255, 7);
+   border-radius: 6px;
+   margin-top: 30px;
+}
+
